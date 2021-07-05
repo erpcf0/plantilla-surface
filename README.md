@@ -9,10 +9,12 @@ To start your Phoenix server:
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
-Opcional:
+Opcional guia paso a paso:
 
   * `mix deps.get`
   * `mix deps.compile`
-  * cd my_app `cd assets && npm install && node node_modules/webpack/bin/webpack.js --mode development`
+  * `cd assets`
+  * `yarn install`
+  * `cd..`
   * `mix ecto.setup`
   * `mix phx.server`
